@@ -1,0 +1,63 @@
+/* Apply background image to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('background.jpg') no-repeat center center/cover; /* Replace with your image */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container box styling */
+.container {
+    width: 60%;
+    margin: 80px auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent dark box */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+/* Welcome Page Styling */
+.start-btn {
+    display: inline-block;
+    padding: 15px 25px;
+    margin-top: 20px;
+    background-color: #ffcc00;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.start-btn:hover {
+    background-color: #ff9900;
+}
+
+/* Quiz Button Styling */
+#options button {
+    width: 90%;
+    margin: 10px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#options button:hover {
+    background-color: #ffcc00;
+}
+
+.correct {
+    background-color: green !important;
+    color: white;
+}
+
+.wrong {
+    background-color: red !important;
+    color: white;
+}
